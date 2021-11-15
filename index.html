@@ -9,37 +9,64 @@
     <title>Book shelf</title>
 </head>
 <body>
-    <section class="promo">
-        <header class="container">
-            <div class="promo_wrapper">
-                <h1>Книжная полка</h1>
-                <button class="btn-add ">Добавить книгу</button>
-            </div>
-        </header>
-    </section>
-    <section class="table">
-        <div class="container">
-            <div class="table_wrapper">
-                <!-- <div class="table-item">
-                    <div class="img-wrapper">
-                        <img class='cover'src="https://cdn1.ozone.ru/s3/multimedia-z/wc1200/6117285227.jpg" alt="">
-                    </div>
-                    <div class="info-wrapper">
-                        <span class="book-name">JavaScript и JQuery</span>
-                        <br>
-                        <span class="book-author">Дэвид Сойер Макфарланд</span>
-                        <br>
-                        <span class="book-year">2016г.</span>
-                    </div>
-                    <div class="btn-wrapper">
-                        <button class="btn-edit btn">Редактировать</button>
-                        <button class="btn-delete btn">Удалить</button>
-                    </div>
-                </div> -->
-
-            </div>
+    <div class="bg-layer"></div>
+    <div class="modal-wrapper">
+        <h2>Редактирование книги</h2>
+        <label >Наименование
+            <br>
+            <input class="name-input -req" type='text' name='name' >
+        </label>
+        <br>
+        <label>Автор
+            <br>
+            <input  class="author-input -req" type='text' name='author'>
+        </label>
+        <br>
+        <label >Год выпуска
+            <br>
+            <input class="year-input -req" type='number' name='year' >
+        </label>
+        <br>
+        <label >Изображение
+            <br>
+            <input class="img-input -req" type='text' name='img'>
+        </label>
+        <div class="btn-block">
+            <button class="btn-save">Сохранить</button>
+            <button class="btn-cancel">Отменить</button>
         </div>
-    </section>
-    <script src="./script.js"></script>
+    </div>
+<section class="promo">
+    <header class="container">
+        <div class="promo_wrapper">
+            <h1>Книжная полка</h1>
+            <button class="btn-add ">Добавить книгу</button>
+        </div>
+    </header>
+</section>
+<section class="table">
+    <div class="container">
+        <div class="table-wrapper">
+            <!-- <div class="table-item">
+                <div class="img-wrapper">
+                    <img class='cover'src="https://cdn1.ozone.ru/s3/multimedia-z/wc1200/6117285227.jpg" alt="">
+                </div>
+                <div class="info-wrapper">
+                    <span class="book-name">JavaScript и JQuery</span>
+                    <br>
+                    <span class="book-author">Дэвид Сойер Макфарланд</span>
+                    <br>
+                    <span class="book-year">2016г.</span>
+                </div>
+                <div class="btn-wrapper">
+                    <button class="btn-edit btn">Редактировать</button>
+                    <button class="btn-delete btn">Удалить</button>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+</section>
+<script src="./script.js"></script>
 </body>
 </html>
