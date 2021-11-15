@@ -143,7 +143,6 @@ const addBook = () => {
                 arr = Object.assign({}, arr); 
                 const newKeys = { 0: "name", 1: "author", 2: 'year', 3: 'img'};
                 arr = renameKeys(arr, newKeys);
-                console.log(arr);
                 for (let key in arr) {
                     arr[key] = arr[key].value;
                 }
